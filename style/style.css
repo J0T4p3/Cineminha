@@ -1,0 +1,192 @@
+a:link,
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+/* -- HEADER -- */
+
+header {
+    background-color: rgb(241, 241, 241);
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+
+/* -- LOGO -- */
+
+figure.logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(70, 70, 70);
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+figcaption {
+    padding-left: 15px;
+}
+
+figure>img {
+    height: 80%;
+}
+
+
+/*-- NAVBAR -- */
+
+nav {
+    display: flex;
+    width: 300px;
+    padding-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+nav ul {
+    justify-content: space-between;
+    color: rgb(70, 67, 67);
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a {
+    padding: 15px 20px;
+}
+
+
+/*-- CONTEÚDO PRINCIPAL -- */
+
+main {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+/* -- TÍTULO -- */
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #dadada;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+
+/*-- LISTA DE CATEGORIAS -- */
+
+.categories {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+/* -- BOTÕES CATEGORIAS --*/
+
+.button {
+    background: #4e4e4d;
+    padding: 13.5px 27px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background: #353434;
+    color: #ffffff;
+}
+
+.button:active {
+    background: #cfcfcc;
+    color: rgb(54, 52, 52);
+}
+
+
+/* -- BARRA DE PESQUISA -- */
+
+#search {
+    padding-top: 60px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+input[type='text'] {
+    padding: 10px;
+    background-color: #4e4e4d;
+    color: #dadada;
+    border-color: #4e4e4d;
+}
+
+input[type='button'] {
+    border-radius: 0px;
+    color: #dadada;
+    background-color: #353434;
+}
+
+
+/*-- FILMES --*/
+
+.movies {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+    color: black;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.movies>li {
+    max-width: 185px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+
+/* -- NOME PONTILHADO --*/
+
+.moviename {
+    padding-top: 10px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
